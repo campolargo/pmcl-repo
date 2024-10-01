@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+
+KEYRING=596EA2776F7FF69209F6507D5CEA81A3D4A4DA09
+
+rm -f Packages Packages.xz Release InRelease
+apt-ftparchive packages . > Packages
+xz -k -f Packages
+apt-ftparchive release . > Release
+gpg --clearsign --yes -u ${KEYRING} -o InRelease Release
