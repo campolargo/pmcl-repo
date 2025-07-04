@@ -1,5 +1,5 @@
 Types: deb
 URIs: https://deb.campolargo.pr.gov.br/pmcl
 Suites: /
-Signed-By: /usr/share/keyrings/pmcl-archive-keyring.gpg
+Signed-By: /etc/apt/keyrings/pmcl-archive-keyring.gpg
 Architectures: amd64
