@@ -14,6 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+set -e
+
 KEYRING=596EA2776F7FF69209F6507D5CEA81A3D4A4DA09
 
 rm -f Packages Packages.xz Release InRelease
